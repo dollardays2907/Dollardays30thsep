@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\DDFrameworkNew\DollarDaysNew\src\test\java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,  14 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_01_validate_clear_items_from_the_cart_from_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_01_validate_clear_items_from_the_cart_from_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_02_validate_cart_by_adding_one_item_from_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddToCartPPE, UserName=vid...)">TC_02_validate_cart_by_adding_one_item_from_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddToCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_05_validate_updatecart_in_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_05_validate_updatecart_in_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_11_validate_no_of_cases_textbox_with_valid_data({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_11_validate_no_of_cases_textbox_with_valid_data({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_12_Validate_the_number_of_case_text_box_in_the_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_12_Validate_the_number_of_case_text_box_in_the_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_13_validate_no_of_cases_textbox_with_zero({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_13_validate_no_of_cases_textbox_with_zero({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.dollardays.testcases.AddToCartPPETestcase" hash-for-method="TC_14_validate_no_of_cases_textbox_with_character({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">TC_14_validate_no_of_cases_textbox_with_character({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.dollardays.testcases.AddToCartPPETestcase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_validate_clear_items_from_the_cart_from_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_01_validate_clear_items_from_the_cart_from_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_01_validate_clear_items_from_the_cart_from_shopping_cart_page</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_validate_cart_by_adding_one_item_from_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddToCartPPE, UserName=vid...)">
+                  </a> <!-- TC_02_validate_cart_by_adding_one_item_from_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddToCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_02_validate_cart_by_adding_one_item_from_product_page</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddToCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_05_validate_updatecart_in_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_05_validate_updatecart_in_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_05_validate_updatecart_in_shopping_cart_page</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_11_validate_no_of_cases_textbox_with_valid_data({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_11_validate_no_of_cases_textbox_with_valid_data({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_11_validate_no_of_cases_textbox_with_valid_data</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_12_Validate_the_number_of_case_text_box_in_the_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_12_Validate_the_number_of_case_text_box_in_the_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_12_Validate_the_number_of_case_text_box_in_the_product_page</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_13_validate_no_of_cases_textbox_with_zero({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_13_validate_no_of_cases_textbox_with_zero({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_13_validate_no_of_cases_textbox_with_zero</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_14_validate_no_of_cases_textbox_with_character({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)">
+                  </a> <!-- TC_14_validate_no_of_cases_textbox_with_character({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...) -->
+                  <span class="method-name">TC_14_validate_no_of_cases_textbox_with_character</span>
+                  <span class="parameters">({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vidyancc@gmail.com, TCID=TC1})</span>
+                  <div class="stack-trace">java.lang.Exception: Driver Not Found
+	at com.dollardays.testcases.BaseTest.openBrowser(BaseTest.java:78)
+	at com.dollardays.testcases.BaseTest.setUpBrowser(BaseTest.java:100)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\DDFrameworkNew\DollarDaysNew\src\test\java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.dollardays.listners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dollar Days Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dollardays.testcases.AddToCartPPETestcase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dollar Days Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Dollar Days Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart')
+data.setCell(0, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page')
+data.setCell(1, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_14_validate_no_of_cases_textbox_with_character')
+data.setCell(2, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_02_validate_cart_by_adding_one_item_from_product_page')
+data.setCell(3, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category')
+data.setCell(4, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page')
+data.setCell(5, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC_12_Validate_the_number_of_case_text_box_in_the_product_page')
+data.setCell(6, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials')
+data.setCell(7, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC_05_validate_updatecart_in_shopping_cart_page')
+data.setCell(8, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC_13_validate_no_of_cases_textbox_with_zero')
+data.setCell(9, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC_01_validate_clear_items_from_the_cart_from_shopping_cart_page')
+data.setCell(10, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC_11_validate_no_of_cases_textbox_with_valid_data')
+data.setCell(11, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page')
+data.setCell(12, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page')
+data.setCell(13, 2, 'com.dollardays.testcases.AddToCartPPETestcase')
+data.setCell(13, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dollardays.testcases.AddToCartPPETestcase</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_01_validate_clear_items_from_the_cart_from_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">2273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">2454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_02_validate_cart_by_adding_one_item_from_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddToCartPPE, UserName=vid...)</span>
+                <span class="method-start">2455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2464 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">2540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_03_validate_cart_add_one_item_through_add_to_cart_button_on_product_from_PPE_and_Mask_category({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">2541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2550 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">2597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_04_validate_cart_by_adding_multiple_items_from_PPE_and_Mask_page_and_verify_shopping_cart({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">2605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2615 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">2653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_05_validate_updatecart_in_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">2657 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2671 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">2748 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_06_Validate_the_case_quantity_text_box_with_valid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">2753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2761 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">2844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_07_Validate_the_case_quantity_text_box_with_zero_value_and_verify_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">2849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">2912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_08_Validate_the_case_quantity_text_box_with_invalid_data_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">2921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">2947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">3015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_09_Validate_the_case_quantity_text_box_with_boundary_value_in_the_shopping_cart_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">3018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">3115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">3162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_10_Validate_the_cart_when_the_user_signoff_and_signin_with_valid_credentials({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">3166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">3170 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">3211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_11_validate_no_of_cases_textbox_with_valid_data({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">3212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">3217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">3256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_12_Validate_the_number_of_case_text_box_in_the_product_page({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">3257 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">3268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">3294 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_13_validate_no_of_cases_textbox_with_zero({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">3300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">3307 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">3331 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC_14_validate_no_of_cases_textbox_with_character({TestCase=valid Login data, Password=c2FpYmFiYTE=, Runmode=Yes, SheetName=AddTOCartPPE, UserName=vid...)</span>
+                <span class="method-start">3332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">3335 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
